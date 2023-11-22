@@ -1,0 +1,80 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(199, 162, 238);
+
+}
+.contenedor-principal{
+    /*border: solid 2px red;*/
+    width: 100%;
+    margin : 0;
+}
+header{
+    background-color: #eee;
+    height:70px;
+    width: 100%;
+}
+header nav ul li{
+    list-style-type: none;
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    color: #2d3646;
+}
+header nav ul li:hover{
+    background-color: #e52f6e;
+    color: white;
+}
+main{
+    background-color: white;
+    width: 100%;
+    float: left;
+}
+main img{
+    width: 100%;
+}
+main section{
+    padding: 30px;
+
+}
+main section p{
+ text-align: justify;
+ margin-bottom: 16px;
+ line-height: 1.5em;   
+}
+main h1{
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+aside{
+    width: 100%;
+    float: left;
+    background-color: aquamarine;
+    padding: 30px;
+}
+aside ul li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
+}
+aside ul li:hover{
+    color:#425067;
+}
+aside h2{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 1.4em
+}
+div footer{
+    width: 95%;
+    padding: 20px;
+    background-color: #e52f6e;
+}
+footer p{
+    color: whitesmoke;
+    text-align: center;
+}
