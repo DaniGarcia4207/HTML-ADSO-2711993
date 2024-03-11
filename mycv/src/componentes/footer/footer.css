@@ -1,0 +1,18 @@
+.footer{
+    background-color: orange;
+    border: solid 2px gainsboro;
+    border-radius: 2%;
+    width: 80%;
+    margin: auto;
+}
+
+.contactListItemFooter{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.ulFooter{
+    display: flex;
+    justify-content: space-evenly
+}
