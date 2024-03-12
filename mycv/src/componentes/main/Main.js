@@ -34,9 +34,16 @@ function Main(){
             <h2>Proyectos desarrollados</h2>
             <div className='cvMain'>
                 <ul>
-                    <li><p></p></li>
+                    <li><p>Aplicaciones web</p></li>
+                    <li><p>Aplicaciones Moviles</p></li>
+                    <li><p>Juegos</p></li>
+                    <li><p>Registrador de usuarios en bases de datos</p></li>
                 </ul>
             </div>
+            <h2>Formacion Complementaria</h2>
+            <div className='cvMain'></div>
+            <li>Ninguna por el momento</li>
+
         </div>
     )
 }
